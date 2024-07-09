@@ -1,0 +1,19 @@
+name: Essentialslite
+version: '${project.version}'
+main: be.ilyaan.essentialslite.Essentialslite
+api-version: '1.20'
+author: Ilyaan
+description: 'EssentialsLite is a lightweight essentials plugin for your server.'
+commands:
+  gmc:
+    description: 'I hate niggers'
+    usage: '/gmc {player}'
+  gms:
+    description: 'I hate niggers'
+    usage: '/gms {player}'
+  gma:
+    description: 'I hate niggers'
+    usage: '/gma {player}'
+  gmsp:
+    description: 'I hate niggers'
+    usage: '/gmsp {player}'
