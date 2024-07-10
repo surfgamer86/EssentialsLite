@@ -12,10 +12,12 @@ public final class Essentialslite extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getServer().getPluginManager().registerEvents(new JoinEventListener(), this);
+        getServer().getPluginManager().registerEvents(new RepairSignListener(), this);
         getCommand("gmc").setExecutor(new GameModeCreativeCommand());
         getCommand("gms").setExecutor(new GameModeSurvivalCommand());
         getCommand("gma").setExecutor( new GameModeAdventureCommand());
         getCommand("gmsp").setExecutor(new GameModeSpectatorCommand());
+        getCommand("repair").setExecutor(new RepairCommand());
     }
 
     @Override

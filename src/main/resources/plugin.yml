@@ -17,3 +17,6 @@ commands:
   gmsp:
     description: 'I hate gingers'
     usage: '/gmsp {player}'
+  repair:
+    description: 'I hate gingers'
+    usage: '/repair'
