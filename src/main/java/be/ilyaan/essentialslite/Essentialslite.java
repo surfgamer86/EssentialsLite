@@ -18,6 +18,8 @@ public final class Essentialslite extends JavaPlugin {
         getCommand("gma").setExecutor( new GameModeAdventureCommand());
         getCommand("gmsp").setExecutor(new GameModeSpectatorCommand());
         getCommand("repair").setExecutor(new RepairCommand());
+        getCommand("god").setExecutor(new GodModeCommand());
+        getCommand("fly").setExecutor(new FlyCommand());
     }
 
     @Override

@@ -20,3 +20,9 @@ commands:
   repair:
     description: 'I hate gingers'
     usage: '/repair'
+  god:
+    description: 'I hate gingers'
+    usage: '/god'
+  fly:
+    description: 'Lets you fly'
+    usage: '/fly'
